@@ -1,0 +1,18 @@
+<head>
+<title>Canvas</title>
+</head
+
+<body>
+<canvas id="canvas" width="200" height="200"></canvas>
+
+<script>
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+ctx.fillRect(100, 100, 50, 50);
+for (var i = 75; i < 175; i++) {
+ctx.fillRect(i, 150, 10, 10);
+}
+ctx.fillRect(90, 160, 70, 60);
+</script>
+</body>
